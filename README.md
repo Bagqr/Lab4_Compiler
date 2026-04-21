@@ -1,4 +1,4 @@
-# Лабораторная работа 4. Реализация алгоритма поиска подстрок с помощью регулярных выражений
+<img width="1880" height="1264" alt="image" src="https://github.com/user-attachments/assets/786cb1bb-22ad-46fb-adf2-226465483cb3" /># Лабораторная работа 4. Реализация алгоритма поиска подстрок с помощью регулярных выражений
 
 ## Название и цель работы
 **Название:** Реализация алгоритма поиска подстрок с помощью регулярных выражений
@@ -56,3 +56,19 @@
 - cats dogs pibbles
 - MrAntonyants
 - audentes fortunes juvatES
+## Тестовые примеры
+
+Строка audentes fortunes juvatES 
+<img width="1873" height="1248" alt="image" src="https://github.com/user-attachments/assets/265f0672-5770-48c8-9bad-421ce86fbff2" />
+
+Строка audentes fortunes juvat, juvat без окончания ES, его и находит программа 
+<img width="1880" height="1264" alt="image" src="https://github.com/user-attachments/assets/4a991b30-4bc4-4641-9947-4dd2deb45132" />
+
+Строка:
+Cats
+Cat
+Dogs
+Dog
+Тут находит только слова без окончания на S
+
+<img width="1867" height="1256" alt="image" src="https://github.com/user-attachments/assets/30ee5cd9-481c-4c4f-8f84-309eb8dcde1c" />
