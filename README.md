@@ -55,4 +55,4 @@
 ## Примеры строк, которые не должны находиться
 - cats dogs pibbles
 - MrAntonyants
-- audentes fortunes juvates
+- audentes fortunes juvatES
