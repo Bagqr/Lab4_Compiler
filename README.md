@@ -1,4 +1,4 @@
-<img width="1880" height="1264" alt="image" src="https://github.com/user-attachments/assets/786cb1bb-22ad-46fb-adf2-226465483cb3" /># Лабораторная работа 4. Реализация алгоритма поиска подстрок с помощью регулярных выражений
+# Лабораторная работа 4. Реализация алгоритма поиска подстрок с помощью регулярных выражений
 
 ## Название и цель работы
 **Название:** Реализация алгоритма поиска подстрок с помощью регулярных выражений
@@ -72,3 +72,43 @@ Dog
 Тут находит только слова без окончания на S
 
 <img width="1867" height="1256" alt="image" src="https://github.com/user-attachments/assets/30ee5cd9-481c-4c4f-8f84-309eb8dcde1c" />
+
+### Задание II
+## Описание задачи
+Построить РВ, описывающее все виды комментариев (язык Python).
+
+## Регулярное выражение с пояснением каждого обозначения
+
+#.*$
+
+- # - символ решётки, начало комментария в Python
+- .* - любой символ кроме конца строки
+- $ - конец строки
+
+## Примеры строк, которые должны находиться
+- #bebebe
+- #bababa
+- #bububu
+- #work not volk v forest not ubezhit
+
+## Примеры строк, которые не должны находиться
+- cats dogs pibbles
+- MrAntonyants
+- audentes fortunes juvatES
+- любой пример который не комментарий
+## Тестовые примеры
+
+Строка #work not walk v forest not ubezhit - комментарий, должен находиться
+<img width="1858" height="1252" alt="image" src="https://github.com/user-attachments/assets/270d80e1-a2b0-4e1c-8ab5-c269358e711e" />
+
+Строка audentes fortunes juvat, не комментарий, не должен находиться
+<img width="1865" height="1260" alt="image" src="https://github.com/user-attachments/assets/394f1ad9-873b-4bae-b272-d22932be7068" />
+
+Строка:
+#Cats
+#Cat
+Dogs
+Dog
+Тут находит только комментарии
+
+<img width="1875" height="1256" alt="image" src="https://github.com/user-attachments/assets/3347e312-53ee-40c2-9e96-b2cb70e44c54" />
