@@ -46,5 +46,13 @@
 - \w = [a,...,z,A,...,Z,0,...9]
 - (?<![sS]) - проверяет, что перед конечной границей не стоит символ S или s
 
-  
+## Примеры строк, которые должны находиться
+- bebebe
+- bababa
+- bububu
+- work not walk v forest not ubezhit
 
+## Примеры строк, которые не должны находиться
+- cats dogs pibbles
+- MrAntonyants
+- audentes fortunes juvates
