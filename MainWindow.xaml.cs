@@ -911,7 +911,7 @@ namespace WpfApp1
             {
                 case "WordsNotEndingWithS":
 
-                    return @"\b\w*(?<![sS])\b";
+                    return @"\b\w+(?<![sS])\b";
 
                 case "PythonComments":
 
